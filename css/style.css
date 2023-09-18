@@ -1,0 +1,1066 @@
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito-Regular.ttf);
+}
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: "nunito", sans-serif;
+}
+
+h1 strong {
+    color: #ef7641 !important;
+}
+
+
+/* Main Banner Css Start */
+
+.main-banner {
+    background: linear-gradient(45deg, #e65c0099, #f9d42369);
+    padding: 110px 0px 25px 0px;
+    color: white;
+    background-image: url("../images/main-banner.jpg");
+    background-position: center top;
+}
+
+.main-banner-content {
+    padding: 20px 65px;
+}
+
+.main-banner-content h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.main-banner-content p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+/* Main Banner Css End */
+
+
+/* Service Main Banner Css Start */
+
+.service-main-banner {
+    background: linear-gradient(45deg, #e65c0099, #f9d42369);
+    padding: 82px 0px 0px 0px;
+    color: white;
+    background-image: url("../images/service-main-bannerfinal.jpg");
+    /* background-size: contain; */
+    background-position: center;
+}
+
+.service-main-banner-content {
+    padding: 20px 65px;
+}
+
+.service-main-banner-content h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.service-main-banner-content p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.service-page-content h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+
+.service-page-content h3 {
+    border-bottom: solid 3px #f1a56c;
+    width: fit-content;
+    padding-bottom: 4px;
+}
+
+.service-page-content h4 {
+    border-bottom: solid 2px #0b0500;
+    width: fit-content;
+    padding-bottom: 4px;
+    color: #f1a56c;
+}
+
+.service-page-content p {
+    margin-top: 12px;
+}
+
+.service-page-section {
+    padding: 0 0 100px 0px;
+}
+
+
+/* Service Main Banner Css End */
+
+
+/* THE LEAD FORM CSS START */
+
+.form-banner-main .form-banner {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.form-banner-main .form_body {
+    line-height: 3;
+    background-color: black;
+}
+
+.form-banner {
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 0px 0px 0px 0px;
+    width: 95%;
+    border-radius: 13px;
+    z-index: 2;
+}
+
+.form_body {
+    padding: 10px 25px 0px 25px;
+    line-height: 4.5;
+}
+
+.form-banner p {
+    color: white !important;
+    text-align: center;
+    background-color: green;
+    padding: 5px
+}
+
+.form-banner-main .form-banner h2 {
+    color: black;
+}
+
+.form-banner-main .form-banner h5 {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+.form-banner-main .form-banner h2 strong {
+    color: #ef7641;
+    font-weight: 900;
+}
+
+.form-banner h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #f1a56c;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.form-banner h4 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.form-banner h4 a {
+    color: #fdc716;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.form-banner h4 a:hover {
+    color: #ffffff;
+    text-decoration: underline !important;
+}
+
+.form-banner label {
+    margin-top: 15px;
+    color: #ffffff;
+    line-height: normal;
+    display: block;
+}
+
+.form-banner input[type="text"],
+.form-banner input[type="tel"],
+.form-banner input[type="email"] {
+    width: 100%;
+    height: 33px;
+    padding: 8px;
+    border-bottom: 1px #fff solid;
+    margin-top: 14px;
+    background-color: transparent;
+    color: rgb(255 255 255);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.form-banner ::placeholder {
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-banner textarea {
+    width: 100%;
+    height: 33%;
+    padding: 10px;
+    border: 0px;
+    resize: none;
+    border-radius: 4px;
+    margin-top: 14px;
+    background-color: transparent;
+    border-bottom: 1px #fff solid;
+    color: black;
+    text-transform: capitalize;
+    /* padding-bottom: 50px; */
+}
+
+.form-banner textarea::placeholder {
+    color: white;
+}
+
+.cty-code {
+    margin-top: 14px;
+    border-bottom: 1px #fff solid;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+select.cty-code {}
+
+.cty-code option,
+optgroup {
+    color: black;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-submit input[type="submit"] {
+    cursor: pointer;
+    display: inline-block;
+    width: 165px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 65px;
+    background-color: #ffffff;
+    color: #ec2527;
+    font-size: 18px;
+    border: 0px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.form-submit input[type="submit"]:hover,
+.form-submit input[type="submit"]:active,
+.form-submit input[type="submit"]:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+.form-banner input[type="submit"] {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #ffc107;
+    color: #000000;
+    font-size: 22px;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+    height: 33px;
+    padding: 0 8px;
+    border-bottom: 1px white solid;
+    margin-top: 14px;
+    background-color: #ffffff;
+    color: white;
+}
+
+
+/* Lead Form Css End */
+
+
+/* Logo Section Css Start */
+
+.logo-autoplay {
+    padding: 50px 0px;
+}
+
+.logo-slider .slick-slide {
+    min-width: max-content;
+    margin: 0 15px;
+}
+
+
+/* Logo Section Css End */
+
+
+/* Services Secrion Css Start */
+
+.services-section {
+    padding: 0px 0px 100px 0px;
+}
+
+.service-section-heading {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.service-section-heading h3 {
+    border-bottom: solid 2px #f1a56c;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-card {
+    padding: 35px 25px 35px 25px;
+    background: linear-gradient(45deg, #e65c0099, #f9d42369);
+    border-radius: 15px;
+}
+
+div.service-card.active {
+    transform: scale(1.03);
+    background-image: url(../images/ser-box-blend-img.webp);
+    background-repeat: no-repeat;
+    background-color: #f1a56c;
+    background-position: bottom right;
+    background-blend-mode: luminosity;
+    background-size: 40%;
+    color: white;
+    box-shadow: 0px 30px 60px 0px rgb(8 0 42 / 10%);
+    border-radius: 14px;
+}
+
+.service-card:hover {
+    transform: scale(1.01);
+    background-image: url(../images/ser-box-blend-img.webp);
+    background-repeat: no-repeat;
+    background-color: #f1a56c;
+    background-position: bottom right;
+    background-blend-mode: luminosity;
+    background-size: 40%;
+    color: white;
+}
+
+.service-card h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.service-card p {
+    margin-bottom: 120px;
+}
+
+.chat-button {
+    text-align: left;
+    margin-top: -90px;
+}
+
+.chat-button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    /* border: solid 1px rgb(0, 0, 0); */
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: #fcd486;
+}
+
+
+/* .service-card-heading {
+    padding: 56px;
+    background-color: #fcd486;
+    margin-top: -35px;
+    clip-path: circle(44.2% at 14% 22%);
+    margin-left: -25px;
+    margin-bottom: 15px;
+} */
+
+.service-card h3 {
+    text-align: center;
+    /* margin-left: -45px; */
+    font-weight: 600;
+}
+
+
+/* Services Section Css End */
+
+
+/* About Us Section Css Start */
+
+.about-section {
+    padding: 355px 0 100px 0px;
+    background-color: #e8e8e8;
+    margin-top: -248px;
+}
+
+.about-content h6 {
+    color: #f1a56c;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: solid 2px #000000;
+    width: fit-content;
+    padding-bottom: 7px;
+}
+
+.about-content h1 {
+    font-weight: 600;
+}
+
+
+/* .about-image {
+    margin-top: -70px;
+} */
+
+.about-btn {
+    margin-top: 30px;
+}
+
+.about-btn a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 11px 17px;
+}
+
+.about-btn a:hover {
+    background-color: white;
+    color: black;
+    border: solid 2px #333;
+}
+
+
+/* About Us Section Css End */
+
+
+/* Why Choose Us Section Css Start */
+
+.choose-us-section {
+    padding: 100px 0px;
+}
+
+.choose-us-image img {
+    width: 98%;
+    margin-top: 35px;
+}
+
+.choose-us-content h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: solid 3px #333;
+    width: fit-content;
+    margin-left: 30px;
+    /* margin-right: auto; */
+    padding-bottom: 8px;
+    color: #f1a56c;
+}
+
+.choose-us-content li span {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+
+/* Why Choose Us Section Css End */
+
+
+/* Testimonial Section Css Start */
+
+.testimonial-section {
+    padding: 100px 0px;
+    background-color: #fcfcfc;
+    background: url(../images/positive-review.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.testimonial-section-heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.testimonial-section-heading h5 {
+    color: #f1a56c;
+    font-weight: 600;
+    border-bottom: solid 2px #333;
+    padding-bottom: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+/* .slick-slide:nth-child(odd) {
+    background: red;
+} */
+
+
+/* .slick-active+.slick-active {
+    background: blue;
+}
+
+.slick-active+.slick-active+.slick-active {
+    background: yellow;
+} */
+
+.testimonial-slider .active:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
+
+.testimonial-section-heading h2 {
+    font-weight: 600;
+}
+
+.testi-card {
+    /* border: solid 2px #333; */
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #000000;
+    padding-bottom: 100px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 73% 90%, 50% 75%, 0% 75%);
+    margin-right: 25px;
+}
+
+.testi-name {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.testi-name h4 {
+    margin-top: 45px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: #ef7641;
+    font-size: 24px;
+}
+
+.review-star {
+    margin-left: 135px;
+    margin-top: -45px;
+    margin-bottom: 35px;
+}
+
+.testi-card p {
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+/* Testimonial Section Css End */
+
+
+/* Portal Section Css Start  */
+
+.portal-section {
+    padding: 100px 0px;
+}
+
+.portal-content {
+    padding: 112px 130px 133px 205px;
+    margin-right: -10px;
+    margin-top: 15px;
+    margin-left: -190px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: url(../images/lib.jpg);
+}
+
+.portal-content h5 {
+    border-bottom: solid 3px #f1a56c;
+    width: fit-content;
+}
+
+.portal-content h1 {
+    font-weight: 600;
+    background: black;
+}
+
+.portal-content p {
+    margin-bottom: 28px;
+}
+
+.portal-content .portal-btn {
+    padding: 10px 22px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.portal-content .portal-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.portal-img-sect {
+    /*  border: solid 3px #f1a56c; */
+    padding: 2px 0px;
+    margin-top: 15px;
+    border-radius: 25px;
+    /* padding-right: 60px; */
+    margin-right: -145px;
+    padding-left: 15px;
+}
+
+.portal-img {
+    /* padding: 10px; */
+    background-color: #fcede2;
+    /* border: solid 4px #f1a56c; */
+    border-radius: 7px;
+    margin: 10px;
+    text-align: center;
+    background: linear-gradient(45deg, #fefefe, #fcede2);
+}
+
+
+/* Portal Section Css End */
+
+
+/* Contact Section Css Start */
+
+.contact-head {
+    text-align: center;
+}
+
+.contact-head h1 {
+    font-weight: 600;
+}
+
+
+/* Contact Section Css End */
+
+
+/* Faqs Section Start */
+
+.faq-section {
+    padding: 100px 0px;
+    color: rgb(0, 0, 0);
+    background-color: #eaeaea;
+}
+
+.faq-container p {
+    padding: 15px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.faq-container .accordion {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-family: 'Montserrat', sans-serif;
+    line-height: initial;
+    margin-bottom: 14px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 15px;
+    border-left: 12px rgb(239 118 65) solid;
+    /* box-shadow: 0px 5px 15px 5px rgb(0 0 0 / 10%); */
+}
+
+.faq-container .active,
+.faq-container .accordion:hover {
+    background-color: #f1a56c;
+    border-left: 12px rgb(0, 0, 0) solid;
+    color: white;
+}
+
+.faq-container .accordion:after {
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.faq-container .active:after {
+    content: "\2212";
+}
+
+.faq-container .panel {
+    padding: 0 18px;
+    background: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.faq-head h1 {
+    font-weight: 600;
+}
+
+
+/* Faqs Css End */
+
+
+/* Award Section Css Start */
+
+section.awards {
+    padding: 100px 0 100px 0;
+}
+
+.section-title {
+    padding-bottom: 35px;
+}
+
+.award-row {
+    text-align: center;
+}
+
+
+/* Award Section Css End */
+
+
+/* Footer Section Css Start */
+
+.footer-section {
+    padding: 100px 0px;
+    background-color: #000000;
+    color: white;
+}
+
+.footer-link h4 {
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.footer-link li {
+    list-style: none;
+    margin-top: 5px;
+    color: white;
+}
+
+.footer-link ul {
+    margin-top: 25px;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-link li a:hover {
+    color: #f1a56c;
+}
+
+.footer-text {
+    font-weight: 500;
+    margin-top: 15px;
+    color: white;
+}
+
+.footer-img {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* Footer Section Css Start */
+
+
+/* Inner Page Css Start */
+
+.inner-heading {
+    text-align: center;
+    padding: 85px 0px;
+    background-image: url("../images/inner-background.jpg");
+}
+
+.inner-heading h1 {
+    font-weight: 600;
+    color: white;
+}
+
+.inner-content {
+    padding: 85px 0px;
+}
+
+.inner-content h3 {
+    font-weight: 600;
+    padding-top: 10px;
+    border-bottom: solid 3px #f1a56c;
+    width: fit-content;
+    padding-bottom: 6px;
+}
+
+
+/* Inner Page Css Start */
+
+
+/* Contact Us Page Css Start */
+
+.contact-sec-1 h4 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #565dff;
+}
+
+.contact-sec-1 h1 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #000000;
+    position: relative;
+}
+
+.contact-sec-1 h1:before {
+    position: absolute;
+    background-color: #f1a56c;
+    height: 3px;
+    width: 70px;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 43px;
+    margin: 0 auto;
+}
+
+.contact-sec-2 {
+    padding: 65px 30px;
+    background-color: #ffcda6;
+    margin: 65px 0 0 0;
+}
+
+.contact-sec-2 h2 {
+    font-weight: 600
+}
+
+.contact-sec-2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-sec-2 ul li {
+    padding: 10px 0;
+}
+
+.contact-sec-2 ul li i {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: #4d56f5;
+}
+
+.contact-sec-2 ul li span {
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.contact-sec-3 {
+    padding-bottom: 100px;
+}
+
+
+/* Contact Us Page Css End */
+
+@media only screen and (max-width: 768px) {
+    .main-banner-content {
+        padding: 0px;
+    }
+    .service-main-banner-content {
+        padding: 0px;
+    }
+    .side-banner {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .about-image {
+        margin-top: 30px;
+    }
+    .portal-content {
+        padding: 112px 20px 133px 190px;
+        margin-right: 0px;
+    }
+    .portal-img-sect {
+        margin-right: 0px;
+    }
+    .form-banner {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .form_body {
+        padding: 10px 25px 0px 25px;
+    }
+    div.service-card.active {
+        transform: none;
+        margin: 15px 0px;
+    }
+    section.cta01 .ctaparent {
+        width: 95% !important;
+        padding: 50px 25px 0 25px !important;
+    }
+    .con-card {
+        width: 95% !important;
+        margin-bottom: 45px !important;
+        padding: 30px !important;
+    }
+    .portal-section {
+        padding: 10px 0px 100px 0px;
+    }
+    .portal-content {
+        margin-bottom: 40px;
+    }
+    .testimonial-section {
+        padding-bottom: 0px;
+    }
+    .choose-us-content {
+        margin-top: 30px;
+    }
+    .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+    .footer-link {
+        margin-top: 20px;
+    }
+    ul.list-style-1 li span:before {
+        left: -40px !important;
+    }
+}
+
+.form_head {
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+.form-banner input[type="text"]::placeholder,
+.form-banner input[type="tel"]::placeholder,
+.form-banner input[type="email"]::placeholder {
+    color: white;
+}
+
+ul.list-style-1 {
+    list-style: none;
+}
+
+ul.list-style-1 li span {
+    position: relative
+}
+
+ul.list-style-1 li span:before {
+    content: url(../images/marker.jpg);
+    position: absolute;
+    left: -50px;
+    top: -40px;
+}
+
+section.portal-section {
+    color: white;
+}
+
+section.cta01 .ctaparent {
+    width: 75%;
+    margiN: auto;
+    text-align: center;
+    padding: 50px 50px 0 50px;
+    background: black;
+    color: white;
+    border-radius: 34px;
+    background-image: url(../images/cta-bg.jpg);
+}
+
+section.cta01 .ctaparent h1 {
+    max-width: 700px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "nunito", sans-serif;
+}
+
+section.cta01 .ctaparent h1 strong {
+    color: #ef7641
+}
+
+.portal-logos h5 {
+    color: #ef7641;
+    border-bottom: 3px black solid;
+    width: fit-content;
+    margin-left: 29px;
+    padding-top: 18px;
+}
+
+.portal-logos h1 {
+    color: #000000;
+    margin-left: 29px;
+    font-family: "nunito", sans-serif;
+    font-weight: 800;
+}
+
+.con-card {
+    background: white;
+    padding: 43px;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 5px rgb(0 0 0 / 10%);
+}
+
+.con-card h1 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.con-card a {
+    background: #ef7641;
+    color: wheat;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 11px 20px 11px 10px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-left: 7px black solid;
+}
+
+.cta-bar-orange {
+    background: url(../images/gcaps.gif);
+}
+
+.cont-footer a {
+    color: #f2743e;
+    text-decoration: none;
+}
